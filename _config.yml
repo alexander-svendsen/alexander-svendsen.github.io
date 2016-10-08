@@ -1,33 +1,19 @@
 # Site settings
-title: Jekyll-Uno
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
-url: 'http://joshgerdes.com/jekyll-uno'
-baseurl: '/jekyll-uno/'
+title: Alexander Svendsen
+description: 'A full stack developer'
+url: 'http://alexander-svendseng.ithub.com/'
+baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
 
 author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
-
-defaults:
-  -
-    scope:
-      path: ''
-      type: 'posts'
-    values:
-        layout: 'post'
+  name: 'Alexander Svendsen'
+  email: alexandersvendsen1990@gmail.com
+  facebook_username: alexander.svendsen1990
+  github_username:  alexander-svenden
+  linkedin_username:  alexander-svendsen
 
 # Build settings
 destination: _site
-paginate: 10
-permalink: /:year/:title/
-markdown: kramdown
-highlighter: rouge
 
 kramdown:
   # use Github Flavored Markdown
@@ -35,5 +21,4 @@ kramdown:
   # do not replace newlines by <br>s
   hard_wrap: false
 
-gems: ['jekyll-paginate']
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
