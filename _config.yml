@@ -1,7 +1,7 @@
 # Site settings
 title: Alexander Svendsen
 description: 'A full stack developer'
-url: 'http://alexander-svendseng.ithub.com/'
+url: 'http://alexander-svendsen.github.com/'
 baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
 
